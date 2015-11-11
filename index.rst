@@ -11,7 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-
+   _static/stm32-discovery.rst
+   _static/tips.rst
 
 Indices and tables
 ==================
