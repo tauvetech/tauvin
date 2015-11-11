@@ -13,9 +13,10 @@ linux commands::
 
    grep -r <expresssion>
 
+  grep -REn <expresssion>
+  git grep -En <expresssion>
+
 vider la corbeille (sudo)::
 
    sudo rm -rf ~/.local/share/Trash/files/*
-
-
 
