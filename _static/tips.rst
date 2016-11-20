@@ -24,3 +24,12 @@ vider la corbeille (sudo)::
 
    sudo rm -rf ~/.local/share/Trash/files/*
 
+Docker
+------
+
+Pour faire un nettoyage de docker exécutez ces deux commandes::
+
+  docker rm $(docker ps -a -q)
+  docker rmi $(docker images -q)
+
+Une fois fini Docker est propre comme si de rien n'était :)
