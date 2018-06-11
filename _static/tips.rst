@@ -27,9 +27,22 @@ vider la corbeille (sudo)::
 Docker
 ------
 
-Pour faire un nettoyage de docker exécutez ces deux commandes::
+for a cleaning docker environment, execute the following commands:
 
   docker rm $(docker ps -a -q)
   docker rmi $(docker images -q)
 
-Une fois fini Docker est propre comme si de rien n'était :)
+Once finished, it's OKay :)
+
+update-alternatives
+-------------------
+
+choose compiler default (once installed):
+
+  sudo update-alternatives --config gcc
+
+set date over SSH
+-----------------
+
+  ssh user@server sudo date -s @`( date -u +"%s" )`
+

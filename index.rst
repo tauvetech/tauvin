@@ -13,6 +13,8 @@ Contents:
 
    _static/stm32-discovery.rst
    _static/tips.rst
+   _static/tar.rst
+   _static/docker.rst
 
 Indices and tables
 ==================
