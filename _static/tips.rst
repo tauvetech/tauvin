@@ -44,5 +44,7 @@ choose compiler default (once installed):
 set date over SSH
 -----------------
 
+like this::
+
   ssh user@server sudo date -s @`( date -u +"%s" )`
 
